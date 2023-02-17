@@ -1,0 +1,38 @@
+#t1 {
+    background-image: url("../../images/t1.jpg");
+    width: 175px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 2%;
+    display: inline-block;
+
+ 
+}
+
+#t1r {
+    background-image: url("../../images/t1r.jpg");
+    width: 175px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 2%;
+    display: inline-block;
+
+
+
+}
+
+#t2 {
+    background-image: url("../../images/t2.jpg");
+    width: 175px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 2%;
+    display: inline-block;
+
+
+
+}
+
+.menu{
+    text-align: center;
+}

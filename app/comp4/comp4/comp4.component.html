@@ -1,0 +1,77 @@
+<article id="comp4">
+    <section id="t1x">
+        <table class="table table-dark">
+            <thead class="text-warning">
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Plataforma</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Imagen</th>
+                </tr>
+            </thead>
+            <tbody class="text-white">
+                <tr *ngFor="let tlof1 of th1">
+                    <td>{{ tlof1.nombre }}</td>
+                    <td>{{ tlof1.plataforma }}</td>
+                    <td>{{ tlof1.descripcion }}</td>
+                    <td>{{ tlof1.precio | currency:'EUR':true }}</td>
+                    <td><img class="img-fluid" [src]="tlof1.url"></td>
+
+                </tr>
+            </tbody>
+        </table>
+        <img id="c1" >The last of Us 
+
+    </section>
+
+    <section id="t1rx">
+        <table class="table table-dark">
+            <thead class="text-warning">
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Plataforma</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Imagen</th>
+                </tr>
+            </thead>
+            <tbody class="text-white">
+                <tr *ngFor="let tlof1 of th1r">
+                    <td>{{ tlof1.nombre }}</td>
+                    <td>{{ tlof1.plataforma }}</td>
+                    <td>{{ tlof1.descripcion }}</td>
+                    <td>{{ tlof1.precio | currency:'EUR':true }}</td>
+                    <td><img class="img-fluid" [src]="tlof1.url"></td>
+
+                </tr>
+            </tbody>
+        </table>
+        <img id="c2" >The last of Us Remastered
+
+    </section>
+    <section id="t2x">
+        <table class="table table-dark">
+            <thead class="text-warning">
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Plataforma</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Imagen</th>
+                </tr>
+            </thead>
+            <tbody class="text-white">
+                <tr *ngFor="let tlof1 of th2">
+                    <td>{{ tlof1.nombre }}</td>
+                    <td>{{ tlof1.plataforma }}</td>
+                    <td>{{ tlof1.descripcion }}</td>
+                    <td>{{ tlof1.precio | currency:'EUR':true }}</td>
+                    <td></td>
+
+                </tr>
+            </tbody>
+        </table>
+        <img id="c3" >The last of Us Part II
+    </section>
+</article>
